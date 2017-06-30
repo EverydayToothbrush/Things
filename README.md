@@ -1,3 +1,0 @@
-## Things
-
-Learning/problem dump
