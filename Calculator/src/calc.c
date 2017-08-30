@@ -55,7 +55,7 @@ LINE10:
 					goto LINE94;
 				}
 				break;
-		//DISTANCECONVERT
+		//SPEEDCONVERT
 			case 'U':
 				if(strcmp(modes, "UnitCalc") == 0) {
 					do {
