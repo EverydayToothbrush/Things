@@ -7,7 +7,7 @@ float sphere(float radius);
 float speed(float kmh);
 int main() {
 	char modes[10];
-LINE7:
+LINE10:
 	printf("What do you want to do?\n");
 	printf("TempCalc\n");
 	printf("SphereVol\n");
@@ -34,9 +34,9 @@ LINE7:
 						scanf("%10s", backopt);
 						getchar();
 					} while (strncmp(backopt, "Yes", 10) != 0);
-					goto LINE7;
+					goto LINE10;
 				} else {
-					goto LINE42;
+					goto LINE94;
 				}
 				break;
 		//SPHEREVOLUME
@@ -50,9 +50,9 @@ LINE7:
 						scanf("%10s", backopt);
 						getchar();
 					} while(strncmp(backopt, "Yes", 10) != 0);
-					goto LINE7;
+					goto LINE10;
 				} else {
-					goto LINE42;
+					goto LINE94;
 				}
 				break;
 		//DISTANCECONVERT
@@ -66,9 +66,9 @@ LINE7:
 						scanf("%10s", backopt);
 						getchar();
 					} while(strncmp(backopt, "Yes", 10) != 0);
-					goto LINE7;
+					goto LINE10;
 				} else {
-					goto LINE42;
+					goto LINE94;
 				}
 				break;
 		//HOURCONVERTING
@@ -86,15 +86,15 @@ LINE7:
 						scanf("%10s", backopt);
 						getchar();
 					} while(strncmp(backopt, "Yes", 10) != 0);
-					goto LINE7;
+					goto LINE10;
 				} else {
-					goto LINE42;
+					goto LINE94;
 				}
 				break;
-		LINE42:
+		LINE94:
 			default:
 				printf("That is not a Mode\n");
-				goto LINE7;
+				goto LINE10;
 
 
 		}
